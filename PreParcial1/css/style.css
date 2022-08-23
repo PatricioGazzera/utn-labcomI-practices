@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    flex-grow: 3;
+    background-color: bisque;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    align-items: center;
+}
+
+li:hover a{
+    background-color: rgb(225, 133, 133);
+}
+
+li{
+    display: inline-flex;
+    border: 1px solid rgb(39, 2, 2);
+    border-radius: 5px;
+}
+
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.main-image{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-grow: 1;
+    width: 120px;
+}
+
+.profile a svg{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    width: 32px;
+    height: 32px;
+
+}
+
+main{
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+}
